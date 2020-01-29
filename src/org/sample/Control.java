@@ -10,7 +10,7 @@ public class Control {
 		int org = num;
 		int ams = 0;
 
-		while (org != 0) {
+		while (org != 0) {	
 			int r = org % 10;
 			ams = ams + (r * r * r);
 			org = org / 10;
@@ -22,6 +22,9 @@ public class Control {
 
 		else {
 			System.out.println("not amstrong number");
+			System.out.println("not amstrong number1");
+			System.out.println("not amstrong number2");
+			
 		}
 
 	}
